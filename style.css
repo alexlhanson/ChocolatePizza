@@ -101,7 +101,6 @@ main section:last-of-type img{
   margin-right: 20px;
 }
 
-
 main section:last-of-type button {
   float: right;
   clear: right;
@@ -109,4 +108,19 @@ main section:last-of-type button {
 
 footer {
   clear: both;
+}
+footer div {
+  width: 47.5%;
+  margin-top: 7px;
+}
+
+footer div:first-of-type {
+  float: left;
+}
+
+footer div:last-of-type {
+  float: right;
+}
+footer img {
+ margin: 0 6px;
 }
