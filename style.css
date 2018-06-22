@@ -124,3 +124,12 @@ footer div:last-of-type {
 footer img {
  margin: 0 6px;
 }
+
+footer section {
+  margin-bottom: 20px;
+}
+footer p {
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
