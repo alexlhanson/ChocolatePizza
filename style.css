@@ -111,10 +111,16 @@ main article p {
 }
 
 #notepad ul:last-of-type {
-  position: absolute;
   top: 20%;
   left: 55%;
-  float: right;
+}
+
+#notepad ul li {
+  display: block;
+}
+
+#notepad ul input:checked ~ label{
+  text-decoration: line-through;
 }
 
 main section:last-of-type {
