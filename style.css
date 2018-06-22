@@ -68,3 +68,21 @@ main article p {
   text-indent: 20px;
 }
 
+#notepad { 
+  position: relative;
+}
+
+#notepad ul {
+  position: absolute;
+  float: left;
+  top: 20%;
+  left: 15%;
+  transform: translate(-20%, -20%);
+}
+
+#notepad ul:last-of-type {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  float: right;
+}
