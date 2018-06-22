@@ -41,6 +41,8 @@ header hr {
   clear: both;
 }
 
+main {margin-bottom: 80px;}
+
 main section:first-of-type {
   float: left;
   margin-bottom: 30px;
@@ -70,6 +72,8 @@ main article p {
 
 #notepad { 
   position: relative;
+  margin-bottom: 30px;
+  clear: both;
 }
 
 #notepad ul {
@@ -85,4 +89,24 @@ main article p {
   top: 20%;
   left: 55%;
   float: right;
+}
+
+main section:last-of-type {
+  margin-bottom: 40 px;
+  height: 120 px;
+}
+
+main section:last-of-type img{
+  float: left;
+  margin-right: 20px;
+}
+
+
+main section:last-of-type button {
+  float: right;
+  clear: right;
+}
+
+footer {
+  clear: both;
 }
