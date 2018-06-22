@@ -1,5 +1,11 @@
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
 header {
   height: 120px;
+  margin-bottom: 60px;
 }
 
 header section:first-of-type {
@@ -34,3 +40,31 @@ header li:nth-child(7) {
 header hr {
   clear: both;
 }
+
+main section:first-of-type {
+  float: left;
+  margin-bottom: 30px;
+}
+
+main section:nth-child(2) {
+  float: right;
+  margin-top: 5px;
+}
+
+main section:nth-child(2) p {
+  float: right;
+}
+
+main > img {
+  margin-bottom: 25px;
+}
+
+main article {
+  margin-bottom: 25px;
+}
+
+main article p {
+  margin-bottom: 25px;
+  text-indent: 20px;
+}
+
